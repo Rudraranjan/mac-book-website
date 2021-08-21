@@ -20,19 +20,19 @@
                 <p>Apple M1 Chip with 8-core CPU with 4performance cores and 4 efficiency cores 7- core GPU and 16 core Neural Engine 8 GB unified memory 26GB SSD Storage Two Thunderbolt / USB 4 ports Magic Mouse magic Keyboard US English</p>
                 <div class="m-2 mt-5">
                     <h3>Memory</h3>
-                    <button class="btn btn-warning my-2">8GB Unified Memory</button>
-                    <button class="btn btn-warning my-2">16GB Unified Memory</button>
+                    <button id="memoryOne-add" class="btn btn-warning my-2">8GB Unified Memory</button>
+                    <button id="memoryTwo-add" class="btn btn-warning my-2">16GB Unified Memory</button>
                 </div>
                 <div class="m-2 mt-5">
                     <h3>Storage</h3>
-                    <button class="btn btn-warning my-2">256GB SSD Storage</button>
-                    <button class="btn btn-warning my-2">520GB SSD Storage</button>
-                    <button class="btn btn-warning my-2">1TB SSD Storage</button>
+                    <button id="storageOne-add" class="btn btn-warning my-2">256GB SSD Storage</button>
+                    <button id="storageTwo-add" class="btn btn-warning my-2">520GB SSD Storage</button>
+                    <button id="storageThree-add" class="btn btn-warning my-2">1TB SSD Storage</button>
                 </div>
                 <div class="m-2 mt-5">
                     <h3>Chose Your Delivery Option</h3>
-                    <button class="btn btn-warning my-2">Friday 25, FREE Prime Delivery</button>
-                    <button class="btn btn-warning my-2">Friday 21, Delivery Charge $20</button>
+                    <button id="deliveryOne-add" class="btn btn-warning my-2">Friday 25, FREE Prime Delivery</button>
+                    <button id="deliveryTwo-add" class="btn btn-warning my-2">Friday 21, Delivery Charge $20</button>
                     
                 </div>
                 <div class="d-flex m-2">
@@ -45,12 +45,12 @@
                         <h6 class="fw-bold">Total Price</h6>                   
                     </div>
                     <div class="ms-5 mt-2">
-                        <h6 class="fw-bold p-2">$1299</h6>
-                        <h6 class="fw-bold p-2">$0</h6>
-                        <h6 class="fw-bold p-2">$0</h6>
-                        <h6 class="fw-bold p-2">$0</h6>
+                        <h6 class="fw-bold p-2">$<span id="base-price">1299</span></h6>
+                        <h6 class="fw-bold p-2">$<span id="extra-memory">0</span></h6>
+                        <h6 class="fw-bold p-2">$<span id="extra-storage">0</span></h6>
+                        <h6 class="fw-bold p-2">$<span id="delivery-charge">0</span></h6>
                         <hr>
-                        <h6 class="fw-bold">$1299</h6>                     
+                        <h6  class="fw-bold">$<span id="total-price">1299</span></h6>                     
                     </div>                    
                 </div> 
                 <div class="mb-3 w-50 m-2">
