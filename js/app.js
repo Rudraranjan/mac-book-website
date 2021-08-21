@@ -127,18 +127,26 @@ document.getElementById('apply-button').addEventListener('click', function(){
     if(inputInnerValue == 'stevekaku'){
         //total price id getting
         const bottomtotal = document.getElementById('total-price');
-        // bottom price id getting
         
+        // bottom price id getting
+
         const bottomtotalMainId = document.getElementById('bottom-total');
-       
+
+       // calculation
+
         const bottomTotalParse = parseInt(bottomtotal.innerText);
         const couponDiscount =  bottomTotalParse *20/100;
         const couponDiscountFinal = bottomTotalParse - couponDiscount;
         bottomtotalMainId.innerText= couponDiscountFinal;
 
     }
+    // cleare the inputfield
+
+     inputElement.value = '';   
 
 })
+
+
 
 
 
